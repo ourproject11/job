@@ -1,0 +1,44 @@
+.nav {
+  background-color: #000; /* Black background */
+  padding: 10px;
+}
+
+.brand {
+  color: #fff; /* White text */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.pageLinks a {
+  color: #fff; /* White text */
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.pageLinks a:hover, .pageLinks a.active {
+  color: #61dafb; /* Light blue on hover and active */
+}
+
+.user {
+  color: #fff; /* White text */
+}
+
+.nav-dropdown .dropdown-item {
+  color: #000; /* Black text */
+}
+
+.nav-dropdown .dropdown-item:hover {
+  background-color: #61dafb; /* Light blue background on hover */
+  color: #fff; /* White text */
+}
+
+.dropdown-divider {
+  border-color: #ccc; /* Light gray divider */
+}
+
+.navbar-toggler {
+  border-color: #fff; /* White border for toggle button */
+}
